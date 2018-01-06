@@ -34,6 +34,7 @@
 
 <script>
     export default {
+        
         props:['titulo', 'url']
 
     }

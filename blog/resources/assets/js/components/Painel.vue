@@ -10,6 +10,7 @@
 <script>
     export default {
         props:['titulo', 'cor'],
+        
         computed:
         {
             defineCor: function()
@@ -41,6 +42,4 @@
         background-color: #e85e0d;
         border-color: #e85e0d;
     }
-
-
 </style>

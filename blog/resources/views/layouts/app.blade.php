@@ -16,7 +16,7 @@
 <body>
     <div id="app">
         
-        <topo titulo="{{ config('app.name', 'Laravel') }}" url="{{ url('/') }}">
+        <topo titulo="{{ config('app.name', 'Laravel') }}" url="{{ url('/admin') }}">
             @guest
             <li><a href="{{ route('login') }}">Login</a></li>
             <li><a href="{{ route('register') }}">Register</a></li>
